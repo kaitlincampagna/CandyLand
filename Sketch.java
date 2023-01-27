@@ -32,7 +32,7 @@ public class Sketch extends PApplet {
 		fill(255);
 		rect(width/2, height/2, 600, 60, 28);
 		fill(0);
-		text("Click anywhere to start.", width/2, height/2);
+		text("Click Here To Begin", width/2, height/2);
     
     deck.shuffleDeck();
     deck.shuffleDeck();
