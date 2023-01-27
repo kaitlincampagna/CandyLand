@@ -32,7 +32,16 @@ public class Sketch extends PApplet {
 		fill(255);
 		rect(width/2, height/2, 600, 60, 28);
 		fill(0);
-		text("Click Here To Begin", width/2, height/2);
+		text("Click Here To Play", width/2, height/2);
+    
+    
+		rectMode(CENTER);
+		fill(255);
+		rect(width/2, 380, 850, 120, 28);
+		fill(0);
+    textSize(12);
+    textAlign(CENTER);
+		text("INSTRUCTIONS:\nStarting with the blue player, each player will take a turn.\nA turn consists of clicking on the card deck and above the deck, an image of the card the player drew will appear above the deck.\nThe player will then drag their object to the correct position along the path.\n When the player has completed their turn, they press the enter button to end their turn and switch players.\nThe player positions are being tracked in an array so a win screen will be displayed when one player makes it to the end of the game path", width/2, 335);
     
     deck.shuffleDeck();
     deck.shuffleDeck();
